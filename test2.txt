@@ -1,0 +1,85 @@
+keyword -  refers to the  inbuilt/pre-defined words which has some meaning in java .
+          there are 50+3 java keywords in java 
+    they are -
+    1)the 8 primitive datatypes - byte ,short,int,long,double,float,boolean,char
+    2)public - it is an access modifier which define the type of access the class has.
+    3)static - it is a keyword used to create vaiables and methods which belong to a class rather than a particular instance of a class.
+    4)void - it is a return type keyword which is used there is no value to return.
+    5)if- it is an keyword used to use a conditional statement.
+    6)for - keyword used to call a for loop.
+    7)switch - keyword used to call switch operator.
+    8)class	- used to call a class in java.
+	9)true- keyword used as boolean default value.
+	10)null - keyword used as String default value.
+	
+	
+	
+	
+	VARIABLE - a registered memory location used to store data.
+	           a container use to store data/value for further use in java program.
+			   syntax - datatype variableName = value;
+			   
+			   there are 4 types of variables 
+			   1) local variable - it is used inside a main or any other method to storfe a value.
+			                       its scope is limited to that method only.
+								   
+			   2) static variable - it is used inside class and outside instance.
+			                        the variable is declared with static keyword.
+			   3) instance variable - the variable is declared without  static keyword inside the class .
+			   4) parameter varable - it is declared in the method variable and acts as a variable inside an method.
+			                          A parameter variable is passed with its corresponding arguments.
+			   
+							example - class PriceUpdate {
+							              static int price;
+							              public static int addPrice( price){
+										      int newPrice = price+1;
+											  return newPrice;
+										  }
+										 public static void main (String newAddition[]){
+										 
+										   addPrice(120);
+										   System.out.println(newPrice);
+										 }
+										  }
+					
+Primitive datatype - 
+      they are basic data types provided by the java  and are used to represent simple values.
+	  their sizes are already defined.
+      it have default values given by java (0 for datatype which stores numbers, false for boolean, space for char )
+      example - int, char, float,long,short,boolean,double,byte.
+Non-primitive datatype - 
+      Also known as reference types and are more complex and are derived from primitive types.
+	  their sizes can be varied according to user need .
+      it have default values given by java (null).
+	  example - Array,String,class,instance.
+
+   
+
+
+ identifiers - any name given to the variable in the source code is called identifiers.
+             example - className, main, System, out, println 
+ keywords -  keywords are pre-defined / built-in words which has some meaning.
+             Total keywords are: 50 + 3.  
+            3 keywords which are considered as values(true ,false,null).
+ Literals - values assigned to the variables is called as literals.
+ Arrays -  which is used to store more than one value of similar datatype in a single varable. 
+ Methods - A block of code /code snippet used to perform a certain functionalites.
+ 
+ 
+ 
+ MethodOverloding -  more than one method of similar methodName with different parameters are present inside a single class  is refered as method overloding.
+                     
+					
+ 
+ for loop goes in infinate loop when 
+   1) when terminal condition  always remains true'
+   2) terminal condition is not specified 
+   
+   example - for (i=0;i<5;i--){
+   
+   }
+   
+   main method - it is a behaviour of a class.
+                 syntax - <access modifier> return type main (String ArrayName[]){
+				            }   
+                        example - public static void main(String args[])]
